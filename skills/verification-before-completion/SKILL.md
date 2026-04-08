@@ -137,6 +137,11 @@ These phrases are fine because they include or imply evidence:
 | "I already checked while writing" | Writing-mode and verification-mode are different mindsets. Re-check. |
 | "It's just a draft, it doesn't need to be perfect" | Drafts still need to meet the brief. Verify against spec. |
 | "I'll just send it and fix later" | "Fix later" is debt. Verify now. |
+| "Should work now" | "Should" is not evidence. Run the check. |
+| "I'm tired of this task, just ship it" | Fatigue is when errors happen most. That's exactly when verification matters. |
+| "I already verified the previous version" | Verification from a prior run is stale. Fresh evidence only. |
+
+**The key pattern:** Any thought that uses "should", "probably", or "seems" before verification is a red flag. These words indicate PREDICTION, not EVIDENCE. Catch them, stop, and verify.
 
 ## Special Cases
 

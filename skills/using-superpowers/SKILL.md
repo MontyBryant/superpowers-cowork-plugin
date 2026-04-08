@@ -34,6 +34,8 @@ STOP. Before responding:
    - Am I solving a problem? → systematic-problem-solving
    - Am I reviewing work? → two-stage-review
    - Am I processing feedback? → feedback-reception
+   - Do I have independent tasks? → parallel-work
+   - Do I have an approved plan? → executing-plans
 3. Even 1% chance? → INVOKE THE SKILL
 4. The skill itself will determine if it fully applies
 ```
@@ -69,6 +71,8 @@ Every core skill has an Iron Law. These are NON-NEGOTIABLE rules that cannot be 
 | **Problem-Solving** | NO FIXES WITHOUT ROOT CAUSE INVESTIGATION FIRST |
 | **Two-Stage Review** | SPEC COMPLIANCE BEFORE QUALITY. ALWAYS. IN THAT ORDER. |
 | **Feedback Reception** | UNDERSTAND BEFORE YOU AGREE. EVALUATE BEFORE YOU IMPLEMENT. |
+| **Parallel Work** | ONE AGENT PER INDEPENDENT DOMAIN. REVIEW AFTER ALL RETURN. |
+| **Executing Plans** | FOLLOW THE PLAN. STOP WHEN BLOCKED. DON'T GUESS. |
 
 Iron Laws are not guidelines. They are boundaries. Violating them is not "being efficient" - it is producing lower quality work.
 
@@ -178,6 +182,16 @@ These are the moments you're most likely to skip discipline. Watch for them:
 | "I'll skip the review, it's clearly fine" | "Clearly fine" is confidence, not evidence. |
 | "The user seems impatient" | A disciplined 2-minute process prevents a frustrated 20-minute redo. |
 | "I'm under time pressure" | Time pressure is when discipline matters MOST. |
+
+## Skill Types: Rigid vs Flexible
+
+Not all skills are followed the same way:
+
+**Rigid skills** (follow exactly): verification-before-completion, two-stage-review. These are gate skills — the process IS the value. Skipping steps defeats the purpose. Follow them to the letter.
+
+**Flexible skills** (adapt to context): brainstorming, systematic-problem-solving. These are methodology skills — the thinking IS the value. Scale them up or down based on complexity. A 2-minute brainstorm for a quick email is still a brainstorm.
+
+**Process-first ordering:** When multiple skills apply, invoke process skills (brainstorming, problem-solving) before implementation skills (writing-plans, verification). Understand the approach before starting the work.
 
 ## Session Start Protocol
 

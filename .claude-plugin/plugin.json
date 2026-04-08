@@ -1,6 +1,6 @@
 {
   "name": "superpowers-cowork",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Structured workflow discipline for creative, business, and strategic work. Adapted from the Superpowers framework by Jesse Vincent for non-code knowledge work. Enforces brainstorming, planning, verification, and review gates that prevent ad-hoc execution and ensure evidence-based completion.",
   "author": {
     "name": "Rollo Bryant",

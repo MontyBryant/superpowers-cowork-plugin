@@ -150,10 +150,19 @@ description: >
 ### Key Writing Principles
 
 **1. Descriptions are for triggering, not summarizing**
-The description field determines whether agents find and use the skill. Write it to maximize correct triggering.
+The description field determines whether agents find and use the skill. It should answer one question: "Should I read this skill right NOW?" Start with "Use when..." and include specific triggers and symptoms.
 
-- **Bad:** "A skill for reviewing content quality and compliance"
-- **Good:** "Use when reviewing any deliverable before handoff. Triggers on 'review this', 'check this', 'is this ready?', 'does this meet the brief?'. If there is even a 1% chance a deliverable would benefit from review, invoke this skill."
+**CRITICAL:** The description must ONLY describe triggering conditions. NEVER summarize the skill's process or workflow in the description. Testing revealed that when a description summarizes the workflow, agents follow the description as a shortcut instead of reading the full skill body. A description saying "reviews content for spec compliance then quality" caused agents to do cursory reviews, while "Use when reviewing any deliverable before handoff" forced them to actually read the skill's detailed process.
+
+```yaml
+# BAD: Summarizes workflow — agent may follow this instead of reading skill
+description: Use when reviewing — checks spec compliance first, then quality
+
+# GOOD: Just triggering conditions, no workflow summary
+description: >
+  Use when reviewing any deliverable before handoff. Triggers on
+  'review this', 'check this', 'is this ready?', 'does this meet the brief?'.
+```
 
 **2. Explain the WHY**
 Don't just write rules - explain why they matter. Agents with understanding outperform agents with commands.
@@ -172,6 +181,42 @@ If you know what phrases an agent uses when violating a skill, you can catch vio
 
 **6. Keep it under 3,000 words**
 If the skill is longer than this, split it. Move reference material to a `references/` subdirectory. The skill body should be the essential instructions; deep context goes in references.
+
+### Bulletproofing Against Rationalization
+
+Skills that enforce discipline need to actively resist rationalization. Agents are smart and will find loopholes when under pressure. Three techniques from the upstream Superpowers methodology:
+
+**Close every loophole explicitly.** Don't just state the rule — forbid specific workarounds:
+
+```markdown
+# Bad: Leaves escape routes
+Skip brainstorming? Don't.
+
+# Good: Closes specific loopholes
+Skip brainstorming? Don't. Not for "simple" tasks. Not for "urgent" tasks.
+Not because "the brief is clear." Simple tasks get simple brainstorms.
+```
+
+**Address "spirit vs letter" arguments.** Add this line early in discipline-enforcing skills:
+
+```markdown
+**Violating the letter of the rules is violating the spirit of the rules.**
+```
+
+This cuts off an entire class of "I'm following the spirit" rationalizations.
+
+**Build rationalization tables from testing.** Every excuse agents make in pressure scenarios goes into the Red Flags table. These aren't imagined — they come from observing actual failure modes.
+
+### Testing Different Skill Types
+
+Different skill types need different pressure scenarios:
+
+| Skill Type | Examples | Test With | Success Looks Like |
+|---|---|---|---|
+| **Discipline** (rules/gates) | verification, two-stage-review | Pressure scenarios: time + ambiguity + sunk cost combined | Agent follows rule under maximum pressure |
+| **Workflow** (step-by-step) | brainstorming, writing-plans | Application scenarios + missing information tests | Agent applies technique correctly to new situation |
+| **Methodology** (mental models) | systematic-problem-solving | Recognition + application + counter-examples | Agent knows when AND when NOT to apply |
+| **Reception** (incoming info) | feedback-reception | Scenarios with conflicting, vague, and emotionally charged input | Agent evaluates technically before reacting |
 
 ### Phase 4: Test the Skill
 

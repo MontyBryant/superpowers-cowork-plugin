@@ -24,6 +24,8 @@ Stops Claude from winging it. Enforces a disciplined pipeline - brainstorm, plan
 | **two-stage-review** | Spec compliance first, quality second | Compliance before quality. Always. |
 | **feedback-reception** | Technical evaluation of external feedback | Understand before agreeing. Evaluate before implementing. |
 | **writing-skills** | Create new skills using hypothesis-driven methodology | Test without skill first. Then write. |
+| **parallel-work** | Dispatch independent tasks to concurrent agents | One agent per independent domain. |
+| **executing-plans** | Execute approved plans with verification checkpoints | Follow the plan. Stop when blocked. |
 
 ## Workflow
 
@@ -39,9 +41,9 @@ Stops Claude from winging it. Enforces a disciplined pipeline - brainstorm, plan
 7. Handoff with evidence
 ```
 
-## Adapted From
+## Upstream Tracking
 
-[Superpowers](https://github.com/obra/superpowers) by Jesse Vincent (obra) - the structured software development methodology for Claude Code. This plugin translates the core principles (Iron Laws, 1% Rule, verification gates, skill composition) from code-specific workflows to general creative, business, and strategic work.
+This plugin is adapted from [Superpowers](https://github.com/obra/superpowers) v5.0.7 by Jesse Vincent. It selectively adopts upstream improvements that apply to knowledge work while maintaining domain-specific adaptations. See [UPSTREAM.md](UPSTREAM.md) for the full sync history, skill mapping, and review process.
 
 ## Author
 

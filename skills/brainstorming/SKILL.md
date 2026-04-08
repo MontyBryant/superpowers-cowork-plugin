@@ -111,6 +111,26 @@ Once a direction is chosen, present the design in sections scaled to complexity:
 
 **Get approval after each section.** Don't dump the entire design at once. Present section by section, confirm, move to the next.
 
+### Scope Check
+
+Before diving deeper, assess whether the project scope needs decomposition. If the design has 5+ independent deliverables or spans multiple domains, it may need to be broken into sub-projects:
+
+- Each sub-project should be independently deliverable
+- Each should have its own clear success criteria
+- They should connect at well-defined interfaces, not be entangled
+
+If decomposition is needed, brainstorm each sub-project separately. Don't try to design everything in one pass.
+
+### Save the Design
+
+After your human partner approves the design direction, save it as a reference document. This becomes the source of truth for planning and verification:
+
+```
+docs/specs/YYYY-MM-DD-<topic>-design.md
+```
+
+If the project doesn't have a `docs/specs/` directory, save in whatever location makes sense — the key is that the approved design exists as a file, not just as conversation history.
+
 ### Phase 5: Self-Review the Design
 
 Before asking for final approval, review your own design:
