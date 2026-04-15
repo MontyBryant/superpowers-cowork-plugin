@@ -1,5 +1,5 @@
 ---
-name: executing-plans
+name: superpowers-mm:executing-plans
 description: >
   Use when you have an approved plan to execute — either from the writing-plans skill
   or a plan document your human partner provides. Triggers on "execute the plan",

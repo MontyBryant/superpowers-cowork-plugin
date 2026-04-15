@@ -1,5 +1,5 @@
 ---
-name: parallel-work
+name: superpowers-mm:parallel-work
 description: >
   Use when facing 2+ independent tasks, deliverables, or investigations that can be
   worked on without shared dependencies or sequential constraints. Triggers on

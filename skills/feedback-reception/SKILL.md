@@ -1,5 +1,5 @@
 ---
-name: feedback-reception
+name: superpowers-mm:feedback-reception
 description: >
   This skill should be used when receiving feedback from anyone - clients, collaborators,
   editors, curators, architects, partners, or your human partner themselves. Triggers on

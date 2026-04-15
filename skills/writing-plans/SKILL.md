@@ -1,5 +1,5 @@
 ---
-name: writing-plans
+name: superpowers-mm:writing-plans
 description: >
   This skill should be used when a brainstorming session has been approved and
   work needs to be broken into executable tasks, when the user asks to "make a

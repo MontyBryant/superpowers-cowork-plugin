@@ -1,5 +1,5 @@
 ---
-name: writing-skills
+name: superpowers-mm:writing-skills
 description: >
   This skill should be used when creating new skills, editing existing skills,
   verifying skills work correctly, or building new workflow methodologies. Triggers

@@ -1,5 +1,5 @@
 ---
-name: using-superpowers
+name: superpowers-mm:using-superpowers
 description: >
   This is the META-SKILL that governs all other Superpowers skills. It MUST be checked
   before EVERY response, EVERY task, EVERY action. This skill establishes the 1% Rule,

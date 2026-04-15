@@ -1,5 +1,5 @@
 ---
-name: verification-before-completion
+name: superpowers-mm:verification-before-completion
 description: >
   This skill should be used when about to claim any work is "done", "complete",
   "finished", "ready", "sent", "submitted", or "good to go". Also triggers when

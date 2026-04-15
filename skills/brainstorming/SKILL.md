@@ -1,5 +1,5 @@
 ---
-name: brainstorming
+name: superpowers-mm:brainstorming
 description: >
   This skill should be used when the user asks to "brainstorm", "explore ideas",
   "think through", "design a solution", "figure out how to", "plan an approach",

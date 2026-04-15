@@ -1,5 +1,5 @@
 ---
-name: systematic-problem-solving
+name: superpowers-mm:systematic-problem-solving
 description: >
   This skill should be used when the user has a problem, challenge, or issue that
   needs diagnosing - business problems, underperformance, operational bottlenecks,
