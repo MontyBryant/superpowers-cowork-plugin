@@ -41,10 +41,28 @@ Stops Claude from winging it. Enforces a disciplined pipeline - brainstorm, plan
 7. Handoff with evidence
 ```
 
+## Installation
+
+### Claude Code CLI
+
+```bash
+claude plugins install github.com/montymerlin/superpowers-MM-plugin
+```
+
+### Claude Desktop (Cowork)
+
+Install the `.plugin` file by dragging it into a Cowork chat, or install from the plugin marketplace.
+
+### Cursor / Other MCP Hosts
+
+Clone the repository and configure skills as MCP tool calls per your host's plugin documentation.
+
 ## Upstream Tracking
 
 This plugin is adapted from [Superpowers](https://github.com/obra/superpowers) v5.0.7 by Jesse Vincent. It selectively adopts upstream improvements that apply to knowledge work while maintaining domain-specific adaptations. See [UPSTREAM.md](UPSTREAM.md) for the full sync history, skill mapping, and review process.
 
-## Author
+## Authorship & Lineage
 
-Rollo Bryant - [rollostudio.com](https://rollostudio.com)
+**Original fork:** [Rollo Bryant](https://rollostudio.com) — created v0.1.0, adapting Jesse Vincent's [Superpowers](https://github.com/obra/superpowers) framework for creative, business, and strategic knowledge work.
+
+**Current maintainer:** [Monty Bryant](https://github.com/montymerlin) — v0.2.0 onwards, syncing with upstream and extending for montymerlinHQ workflows.

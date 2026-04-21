@@ -1,6 +1,6 @@
 # CLAUDE.md — Superpowers MM Plugin
 
-This is the **Superpowers for Knowledge Work** plugin — a deliberate fork of [Superpowers](https://github.com/obra/superpowers) by Jesse Vincent, adapted for creative, strategic, and business workflows by Rollo Bryant.
+This is the **Superpowers for Knowledge Work** plugin — a deliberate fork of [Superpowers](https://github.com/obra/superpowers) by Jesse Vincent. Originally adapted for creative, strategic, and business workflows by Rollo Bryant (v0.1.0). Maintained and extended by Monty Bryant from v0.2.0 onwards.
 
 ## What This Repo Is
 
@@ -11,6 +11,7 @@ A Claude Code plugin that ships structured workflow discipline for non-code know
 ```
 .claude-plugin/
   plugin.json          — plugin metadata (name, version, author)
+  marketplace.json     — self-hosted marketplace listing for Claude Code install
 skills/
   <skill-name>/
     SKILL.md           — the skill document loaded by the Skill tool
@@ -19,6 +20,17 @@ ROADMAP.md             — future directions and improvement ideas
 CHANGELOG.md           — narrative change history
 DECISIONS.md           — architectural decision log
 ```
+
+## Distribution
+
+This plugin supports two installation paths:
+
+- **Claude Code CLI:** `claude plugins install github.com/montymerlin/superpowers-MM-plugin` (uses `marketplace.json`)
+- **Claude Cowork (desktop):** Package as `.plugin` zip and drag into Cowork chat, or install from the plugin marketplace
+
+Both paths load the same skills from the same source. The plugin has no host-specific code — all skills are pure markdown workflow specifications.
+
+**Auto-update:** Claude Code pins to a commit SHA at install time; users update manually or via marketplace sync. Cowork requires re-uploading the `.plugin` file or GitHub sync if configured at the organization level.
 
 ## Key Conventions
 

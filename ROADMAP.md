@@ -29,4 +29,4 @@ Items move to the **Decided** section once evaluated and committed to. Completed
 
 ## Decided
 
-*(Nothing here yet — items move here once formally evaluated and committed to.)*
+- **Bundle upstream context as on-demand reference** — → Decision 003. `status: decided`
