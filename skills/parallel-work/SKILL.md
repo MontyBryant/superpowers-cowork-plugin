@@ -1,5 +1,5 @@
 ---
-name: superpowers-mm:parallel-work
+name: superpowers-knowledge:parallel-work
 description: >
   Use for non-code knowledge work when facing 2+ independent tasks, deliverables, or
   investigations that can be worked on without shared dependencies or sequential

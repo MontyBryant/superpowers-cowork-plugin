@@ -1,5 +1,5 @@
 ---
-name: superpowers-mm:writing-skills
+name: superpowers-knowledge:writing-skills
 description: >
   This skill should be used when creating new knowledge-work skills, editing existing
   skills, verifying skills work correctly, or building new workflow methodologies for

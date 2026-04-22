@@ -1,5 +1,5 @@
 ---
-name: superpowers-mm:writing-plans
+name: superpowers-knowledge:writing-plans
 description: >
   This skill should be used for non-code knowledge work when a brainstorming session
   has been approved and work needs to be broken into executable tasks, when the user

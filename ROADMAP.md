@@ -1,6 +1,6 @@
 # Roadmap
 
-Ideas, directions, and planned improvements for the Superpowers for Cowork plugin.
+Ideas, directions, and planned improvements for the Superpowers for Knowledge Work plugin.
 
 Items move to the **Decided** section once evaluated and committed to. Completed items are noted inline.
 

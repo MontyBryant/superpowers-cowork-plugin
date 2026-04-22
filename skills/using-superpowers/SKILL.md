@@ -1,5 +1,5 @@
 ---
-name: superpowers-mm:using-superpowers
+name: superpowers-knowledge:using-superpowers
 description: >
   This is the META-SKILL that governs all Superpowers for Knowledge Work skills. It
   MUST be checked before EVERY response, EVERY task, EVERY action involving non-code

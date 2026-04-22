@@ -111,4 +111,4 @@ How our skills map to upstream:
 2. Bump the plugin version in `.claude-plugin/plugin.json`
 3. Update the README if skills were added or removed
 4. Re-package the `.plugin` file
-5. Commit and push to https://github.com/montymerlin/superpowers-cowork
+5. Commit and push to https://github.com/montymerlin/superpowers-knowledge-plugin
