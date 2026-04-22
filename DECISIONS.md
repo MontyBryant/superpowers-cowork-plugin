@@ -88,3 +88,22 @@ Architectural decisions for the Superpowers MM Plugin. Log significant choices h
 - *Keep name as superpowers-cowork* — rejected. The name implies Cowork-specificity, which is incorrect, and doesn't signal the knowledge-work domain scoping that makes coexistence work.
 - *Split into "core" and "full" packages* — rejected. Doubles maintenance for marginal benefit. Domain-scoped descriptions handle the disambiguation sufficiently.
 - *Automated conflict detection* — deferred. Could add a hook that checks for official Superpowers at session start and adjusts behaviour. Premature for now; description-level routing is sufficient.
+
+---
+
+## Decision 006 — Canonicalize repo instructions around AGENTS.md (2026-04-22)
+
+**Context:** The plugin methodology already worked across hosts, but the repo itself was still Claude-first. `CLAUDE.md` was the only canonical instruction file, installation docs still had stale naming drift, and the meta-skill's upstream-context reference assumed `${CLAUDE_PLUGIN_ROOT}`. That conflicts with the newer compatibility-layer pattern adopted across the rest of the portfolio.
+
+**Decision:** Make `AGENTS.md` the canonical instruction file for the repo. Keep `CLAUDE.md` as a thin compatibility wrapper. Add Codex install/update scripts, switch the upstream-context reference to a portable `SUPERPOWERS_KNOWLEDGE_ROOT` fallback chain, and align README/plugin metadata with the host-agnostic packaging model.
+
+**Consequences:**
+- The repo now matches the same canonical-file pattern as mdpowers, agentic-scaffold, and git-plugin
+- Codex can consume the same skills directly via global install or workspace symlinks
+- The coexistence-with-upstream story stays intact while the host-specific packaging is reduced to a compatibility layer
+- Runtime behavior of the methodology skills remains unchanged; this is a structural and distribution migration
+
+**Alternatives Considered:**
+- *Leave the repo Claude-first* — would keep the portfolio conventions inconsistent
+- *Remove CLAUDE.md entirely* — too abrupt; wrapper compatibility is cleaner
+- *Vendor-copy the skills for Codex only* — unnecessary duplication when the repo itself can stay canonical

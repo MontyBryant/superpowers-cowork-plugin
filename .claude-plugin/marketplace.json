@@ -7,8 +7,8 @@
     {
       "name": "superpowers-knowledge",
       "source": "./",
-      "description": "Structured workflow discipline for creative, business, and strategic knowledge work. A deliberate fork of Jesse Vincent's Superpowers, adapted for non-code contexts. Installs alongside the official Superpowers plugin — the agent chooses by domain.",
-      "version": "0.4.1",
+      "description": "Structured workflow discipline for creative, business, and strategic knowledge work. A deliberate fork of Jesse Vincent's Superpowers, adapted for non-code contexts and packaged for cross-host use.",
+      "version": "0.5.0",
       "author": {
         "name": "Monty Bryant",
         "homepage": "https://github.com/montymerlin"
@@ -16,7 +16,7 @@
       "repository": "https://github.com/montymerlin/superpowers-knowledge-plugin",
       "license": "MIT",
       "category": "productivity",
-      "tags": ["workflow", "discipline", "brainstorming", "planning", "verification", "review", "knowledge-work", "creative", "strategy"]
+      "tags": ["workflow", "discipline", "brainstorming", "planning", "verification", "review", "knowledge-work", "creative", "strategy", "agents-md", "codex"]
     }
   ]
 }

@@ -1,10 +1,12 @@
 {
   "name": "superpowers-knowledge",
-  "version": "0.4.1",
-  "description": "Structured workflow discipline for creative, business, and strategic knowledge work — proposals, campaigns, research, strategy, creative briefs. A deliberate fork of Jesse Vincent's Superpowers, adapted for non-code contexts. Can be installed alongside the official Superpowers plugin: shared methodology skills are domain-scoped so the agent chooses by context (code tasks → upstream, knowledge tasks → this plugin). Three original skills (systematic-problem-solving, two-stage-review, feedback-reception) have no upstream equivalent and add unique value in any configuration.",
+  "version": "0.5.0",
+  "description": "Structured workflow discipline for creative, business, and strategic knowledge work. A deliberate fork of Jesse Vincent's Superpowers, adapted for non-code contexts and packaged for cross-host use with AGENTS.md as the canonical repo instructions.",
   "author": {
     "name": "Monty Bryant",
     "homepage": "https://github.com/montymerlin"
   },
-  "keywords": ["productivity", "workflow", "discipline", "brainstorming", "planning", "verification", "review", "knowledge-work", "creative", "strategy"]
+  "repository": "https://github.com/montymerlin/superpowers-knowledge-plugin",
+  "license": "MIT",
+  "keywords": ["productivity", "workflow", "discipline", "brainstorming", "planning", "verification", "review", "knowledge-work", "creative", "strategy", "agents-md", "codex"]
 }

@@ -196,7 +196,7 @@ Not all skills are followed the same way:
 
 **Process-first ordering:** When multiple skills apply, invoke process skills (brainstorming, problem-solving) before implementation skills (writing-plans, verification). Understand the approach before starting the work.
 
-> **Upstream context:** This plugin is a deliberate fork of Jesse Vincent's Superpowers, adapted for knowledge work. If asked about the plugin's origins, adding new skills, or how this relates to upstream, read `${CLAUDE_PLUGIN_ROOT}/skills/using-superpowers/references/upstream-context.md` for the skill mapping, fork rationale, and adoption criteria.
+> **Upstream context:** Set `SUPERPOWERS_KNOWLEDGE_ROOT="${SUPERPOWERS_KNOWLEDGE_ROOT:-${CLAUDE_PLUGIN_ROOT:-${CODEX_HOME:-$HOME/.codex}/vendor_imports/repos/superpowers-knowledge-plugin}}"`. This plugin is a deliberate fork of Jesse Vincent's Superpowers, adapted for knowledge work. If asked about the plugin's origins, adding new skills, or how this relates to upstream, read `${SUPERPOWERS_KNOWLEDGE_ROOT}/skills/using-superpowers/references/upstream-context.md` for the skill mapping, fork rationale, and adoption criteria.
 
 ## Session Start Protocol
 

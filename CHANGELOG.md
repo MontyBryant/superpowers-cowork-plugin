@@ -4,6 +4,12 @@ Narrative history of significant changes to the Superpowers MM Plugin. Each entr
 
 ---
 
+## 2026-04-22 — v0.5.0: AGENTS.md canon and Codex install support
+
+Shifted the repo to the same compatibility-layer model now used across the plugin portfolio. `AGENTS.md` is now the canonical repo instruction file, `CLAUDE.md` is a thin wrapper, and the one runtime reference used by the meta-skill now resolves through a portable root variable instead of assuming a Claude-only plugin host.
+
+Added Codex install/update scripts, fixed installation naming drift in the docs, and aligned plugin metadata so the repo is clearly positioned as a host-agnostic methodology package with Claude packaging compatibility. See Decision 006.
+
 ## 2026-04-21 — v0.4.0: Rename to superpowers-knowledge, coexistence with official Superpowers
 
 Renamed the plugin from `superpowers-cowork` to `superpowers-knowledge` — the old name implied Cowork-specificity, but the plugin runs in any host. The new name signals the knowledge-work domain that makes it complementary to (not competing with) the official Superpowers plugin.

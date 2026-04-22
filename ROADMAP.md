@@ -30,3 +30,4 @@ Items move to the **Decided** section once evaluated and committed to. Completed
 ## Decided
 
 - **Bundle upstream context as on-demand reference** — → Decision 003. `status: decided`
+- **Canonicalize repo instructions around AGENTS.md** — → Decision 006. `status: decided`
