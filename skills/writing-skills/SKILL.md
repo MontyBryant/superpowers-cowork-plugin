@@ -1,16 +1,12 @@
 ---
 name: writing-skills
-description: >
-  This skill should be used when creating new knowledge-work skills, editing existing
-  skills, verifying skills work correctly, or building new workflow methodologies for
-  non-code domains. Triggers on "create a skill", "write a skill", "build a new
-  workflow", "make a new skill", "improve this skill", "the skill isn't working",
-  "add a new capability", or when the user wants to extend the system with new
-  disciplines. Also triggers when a recurring workflow pattern is identified that
-  should be codified. If there is even a 1% chance the user is trying to create,
-  modify, or debug a skill or workflow methodology, invoke this skill. Knowledge-work
-  adaptation of upstream Superpowers — uses non-code pressure scenarios and business
-  deliverable examples.
+description: This skill should be used when creating new knowledge-work skills, editing existing skills,
+  verifying skills work correctly, or building new workflow methodologies for non-code domains. Triggers
+  on "create a skill", "write a skill", "build a new workflow", "make a new skill", "improve this skill",
+  "the skill isn't working", "add a new capability", or when the user wants to extend the system with
+  new disciplines. Also triggers when a recurring workflow pattern is identified that should be codified.
+  If there is even a 1% chance the user is trying to create, modify, or debug a skill or workflow methodology,
+  invoke this skill.
 ---
 
 # Writing Skills

@@ -1,16 +1,11 @@
 ---
 name: writing-plans
-description: >
-  This skill should be used for non-code knowledge work when a brainstorming session
-  has been approved and work needs to be broken into executable tasks, when the user
-  asks to "make a plan", "break this down", "create an action plan", "what are the
-  steps", "help me plan", "write a project plan", or "organize this into tasks". Also
-  triggers when a project, campaign, proposal, or multi-step deliverable needs
-  structured decomposition before execution. If there is even a 1% chance that
-  breaking work into smaller tasks would improve the outcome, invoke this skill.
-  Every multi-step task gets a plan. No exceptions. Knowledge-work adaptation of
-  upstream Superpowers — if the official Superpowers plugin is also installed, prefer
-  this skill for creative, strategic, and business tasks; prefer upstream for code tasks.
+description: This skill should be used for non-code knowledge work when a brainstorming session has been
+  approved and work needs to be broken into executable tasks, when the user asks to "make a plan", "break
+  this down", "create an action plan", "what are the steps", "help me plan", "write a project plan", or
+  "organize this into tasks". Also triggers when a project, campaign, proposal, or multi-step deliverable
+  needs structured decomposition before execution. If there is even a 1% chance that breaking work into
+  smaller tasks would improve the outcome, invoke this skill. Every multi-step task gets a plan. No exceptions.
 ---
 
 # Writing Plans

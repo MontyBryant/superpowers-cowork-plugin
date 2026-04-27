@@ -1,15 +1,10 @@
 ---
 name: parallel-work
-description: >
-  Use for non-code knowledge work when facing 2+ independent tasks, deliverables, or
-  investigations that can be worked on without shared dependencies or sequential
-  constraints. Triggers on "these are independent", "do these in parallel", "multiple
-  deliverables", "batch these", "work on all of these", or when a plan contains tasks
-  that don't depend on each other. Also applies when troubleshooting multiple unrelated
-  problems simultaneously. Knowledge-work adaptation of upstream
-  superpowers:dispatching-parallel-agents — if the official Superpowers plugin is also
-  installed, prefer this skill for creative and business parallelization; prefer
-  upstream for code parallelization.
+description: Use for non-code knowledge work when facing 2+ independent tasks, deliverables, or investigations
+  that can be worked on without shared dependencies or sequential constraints. Triggers on "these are
+  independent", "do these in parallel", "multiple deliverables", "batch these", "work on all of these",
+  or when a plan contains tasks that don't depend on each other. Also applies when troubleshooting multiple
+  unrelated problems simultaneously.
 ---
 
 # Parallel Work

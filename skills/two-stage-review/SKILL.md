@@ -1,17 +1,12 @@
 ---
 name: two-stage-review
-description: >
-  This skill should be used when reviewing any deliverable before handoff - emails,
-  proposals, content, strategy documents, presentations, research, or any work product.
-  Triggers on "review this", "check this", "is this ready?", "give me feedback",
-  "critique this", "proofread", "quality check", "does this meet the brief?", or
-  when a task from writing-plans has been completed and needs review before the next
-  task begins. Also triggers automatically after any content creation or editing task.
-  If there is even a 1% chance a deliverable would benefit from structured review
-  before being shared, invoke this skill. Every deliverable gets reviewed. No exceptions.
-  Original knowledge-work skill — no upstream Superpowers equivalent. Applies spec
-  compliance then quality review to any deliverable. Adds unique value even when the
-  official Superpowers plugin is also installed.
+description: This skill should be used when reviewing any deliverable before handoff - emails, proposals,
+  content, strategy documents, presentations, research, or any work product. Triggers on "review this",
+  "check this", "is this ready?", "give me feedback", "critique this", "proofread", "quality check", "does
+  this meet the brief?", or when a task from writing-plans has been completed and needs review before
+  the next task begins. Also triggers automatically after any content creation or editing task. If there
+  is even a 1% chance a deliverable would benefit from structured review before being shared, invoke this
+  skill. Every deliverable gets reviewed. No exceptions.
 ---
 
 # Two-Stage Review

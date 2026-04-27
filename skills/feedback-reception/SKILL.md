@@ -1,18 +1,13 @@
 ---
 name: feedback-reception
-description: >
-  This skill should be used when receiving feedback from anyone - clients, collaborators,
-  editors, curators, architects, partners, or your human partner themselves. Triggers on
-  "they said", "they didn't like", "I got feedback", "they want changes", "the client
-  asked for", "here's what they think", "revisions needed", "they rejected", "they
-  approved with conditions", or when processing any critique, review, or revision request.
-  Also triggers when the user shares negative reactions to their work, or when implementing
-  changes based on someone else's input. If there is even a 1% chance you are processing
-  external feedback, invoke this skill. This prevents performative agreement and ensures
-  feedback is evaluated technically before acting on it. Original knowledge-work
-  skill — adapted from upstream receiving-code-review but significantly different
-  (evaluates client/stakeholder feedback, not code review). Adds unique value even
-  when the official Superpowers plugin is also installed.
+description: This skill should be used when receiving feedback from anyone - clients, collaborators, editors,
+  curators, architects, partners, or your human partner themselves. Triggers on "they said", "they didn't
+  like", "I got feedback", "they want changes", "the client asked for", "here's what they think", "revisions
+  needed", "they rejected", "they approved with conditions", or when processing any critique, review,
+  or revision request. Also triggers when the user shares negative reactions to their work, or when implementing
+  changes based on someone else's input. If there is even a 1% chance you are processing external feedback,
+  invoke this skill. This prevents performative agreement and ensures feedback is evaluated technically
+  before acting on it.
 ---
 
 # Feedback Reception

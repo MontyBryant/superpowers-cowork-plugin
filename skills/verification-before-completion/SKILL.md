@@ -1,16 +1,12 @@
 ---
 name: verification-before-completion
-description: >
-  This skill should be used for non-code knowledge work when about to claim any work
-  is "done", "complete", "finished", "ready", "sent", "submitted", or "good to go".
-  Also triggers when reviewing deliverables before handoff, when the user asks "is
-  this done?", "did you check everything?", "verify this", "make sure this is right",
-  or when wrapping up any task that produces a deliverable. MANDATORY: invoke this
-  skill before EVERY completion claim. If there is even a 1% chance you are about
-  to declare something finished, invoke this skill first. No exceptions. This is
-  the most important quality gate in the entire system. Knowledge-work adaptation
-  of upstream Superpowers — uses business verification criteria (deliverable quality,
-  spec compliance, evidence) rather than code verification (tests, linting, CI).
+description: 'This skill should be used for non-code knowledge work when about to claim any work is "done",
+  "complete", "finished", "ready", "sent", "submitted", or "good to go". Also triggers when reviewing
+  deliverables before handoff, when the user asks "is this done?", "did you check everything?", "verify
+  this", "make sure this is right", or when wrapping up any task that produces a deliverable. MANDATORY:
+  invoke this skill before EVERY completion claim. If there is even a 1% chance you are about to declare
+  something finished, invoke this skill first. No exceptions. This is the most important quality gate
+  in the entire system.'
 ---
 
 # Verification Before Completion

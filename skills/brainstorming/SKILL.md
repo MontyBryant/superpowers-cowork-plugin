@@ -1,18 +1,13 @@
 ---
 name: brainstorming
-description: >
-  This skill should be used for non-code knowledge work when the user asks to
-  "brainstorm", "explore ideas", "think through", "design a solution", "figure out
-  how to", "plan an approach", "help me think about", or any creative, strategic, or
-  business task that requires exploration before execution. Also triggers on "let's
-  think about", "what's the best way to", "how should I approach", "I need to figure
-  out", or when the user describes a goal without a clear path. Use this skill BEFORE
-  any execution skill. If there is even a 1% chance this task would benefit from
-  structured exploration before jumping to execution, invoke this skill. This applies
-  to EVERY project, proposal, strategy, content piece, or creative brief - no matter
-  how simple it seems. Knowledge-work adaptation of upstream Superpowers — if the
-  official Superpowers plugin is also installed, prefer this skill for creative,
-  strategic, and business tasks; prefer upstream for code tasks.
+description: This skill should be used for non-code knowledge work when the user asks to "brainstorm",
+  "explore ideas", "think through", "design a solution", "figure out how to", "plan an approach", "help
+  me think about", or any creative, strategic, or business task that requires exploration before execution.
+  Also triggers on "let's think about", "what's the best way to", "how should I approach", "I need to
+  figure out", or when the user describes a goal without a clear path. Use this skill BEFORE any execution
+  skill. If there is even a 1% chance this task would benefit from structured exploration before jumping
+  to execution, invoke this skill. This applies to EVERY project, proposal, strategy, content piece, or
+  creative brief - no matter how simple it seems.
 ---
 
 # Brainstorming

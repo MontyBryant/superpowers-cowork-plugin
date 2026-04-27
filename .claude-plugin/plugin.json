@@ -3,10 +3,22 @@
   "version": "0.5.0",
   "description": "Structured workflow discipline for creative, business, and strategic knowledge work. A deliberate fork of Jesse Vincent's Superpowers, adapted for non-code contexts and packaged for cross-host use with AGENTS.md as the canonical repo instructions.",
   "author": {
-    "name": "Monty Bryant",
-    "homepage": "https://github.com/montymerlin"
+    "name": "Monty Bryant"
   },
   "repository": "https://github.com/montymerlin/superpowers-knowledge-plugin",
   "license": "MIT",
-  "keywords": ["productivity", "workflow", "discipline", "brainstorming", "planning", "verification", "review", "knowledge-work", "creative", "strategy", "agents-md", "codex"]
+  "keywords": [
+    "productivity",
+    "workflow",
+    "discipline",
+    "brainstorming",
+    "planning",
+    "verification",
+    "review",
+    "knowledge-work",
+    "creative",
+    "strategy",
+    "agents-md",
+    "codex"
+  ]
 }

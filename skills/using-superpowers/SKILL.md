@@ -1,17 +1,12 @@
 ---
 name: using-superpowers
-description: >
-  This is the META-SKILL that governs all Superpowers for Knowledge Work skills. It
-  MUST be checked before EVERY response, EVERY task, EVERY action involving non-code
-  knowledge work. This skill establishes the 1% Rule, the Iron Laws, and the instruction
-  priority system. It should be invoked at the start of every session and referenced
-  before every substantive response. If you are doing ANY creative, strategic,
-  analytical, communicative, or operational work - check this skill first. This is not
-  optional. This is not a suggestion. This is the backbone of the Superpowers for
-  Knowledge Work system. Trigger on everything that isn't a simple factual question,
-  casual greeting, or pure code task. If the official Superpowers plugin is also
-  installed, this meta-skill governs knowledge work; the upstream using-superpowers
-  governs code work.
+description: This is the META-SKILL that governs all Superpowers for Knowledge Work skills. It MUST be
+  checked before EVERY response, EVERY task, EVERY action involving non-code knowledge work. This skill
+  establishes the 1% Rule, the Iron Laws, and the instruction priority system. It should be invoked at
+  the start of every session and referenced before every substantive response. If you are doing ANY creative,
+  strategic, analytical, communicative, or operational work - check this skill first. This is not optional.
+  This is not a suggestion. This is the backbone of the Superpowers for Knowledge Work system. Trigger
+  on everything that isn't a simple factual question, casual greeting, or pure code task.
 ---
 
 # Using Superpowers

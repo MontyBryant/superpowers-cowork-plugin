@@ -10,6 +10,7 @@ Audited the plugin against `/create-cowork-plugin` standards. Fixed the namespac
 
 Also added: `.gitignore` (was missing), `SETUP.md` § "Quick Install (for AI agents)" decision tree, Cowork 3-option packaging pattern, and global-vs-local Claude Code install split. AGENTS.md Canonical Structure was updated to include SETUP.md and `.gitignore`. Compatibility matrix corrected: Cursor/VS Code moved from ✓ to "partial" — they don't load plugin manifests, only raw skill files. README.md TL;DR Cowork line reframed to not assume `ops/plugins/_dist/` path (external users build their own zip).
 
+**Post-install fix (same day):** removed invalid `homepage` sub-field from `author` object in both `plugin.json` and `marketplace.json`. Cowork's manifest validator rejected the upload until this was corrected; the schema treats `homepage` as a top-level optional field, not a sub-field of `author`. None of the other 5 plugins in the portfolio had this — caught only when this plugin was the one to fail install.
 ## 2026-04-27 — Cowork packaging: SETUP.md as setup canon
 
 Added `SETUP.md` as the single source of truth for install pathways and host compatibility. Notes the no-runtime-dependencies story (markdown skills only, no MCP) which makes this plugin a clean fit for sandboxed hosts including Cowork. `README.md`'s install section was trimmed to a pointer; UPSTREAM.md is left untouched as the fork-provenance record. The plugin is now packaged as `superpowers-knowledge-0.5.0.plugin` in `ops/plugins/_dist/` using the new `cowork-plugin-packager` skill.

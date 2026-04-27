@@ -1,19 +1,14 @@
 ---
 name: systematic-problem-solving
-description: >
-  This skill should be used when the user has a problem, challenge, or issue that
-  needs diagnosing - business problems, underperformance, operational bottlenecks,
-  strategic questions, relationship issues, brand positioning challenges, or anything
-  that isn't working as expected. Triggers on "why isn't this working", "what's going
-  wrong with", "help me figure out", "diagnose this", "troubleshoot", "I'm stuck",
-  "this isn't performing", "what should I do about", "how do I fix", or any situation
-  where something is broken, stuck, or underperforming. Use ESPECIALLY when under
-  time pressure, when "just one quick fix" seems obvious, when multiple attempts have
-  already failed, or when the root cause is unclear. If there is even a 1% chance the
-  user is dealing with a problem rather than a creation task, invoke this skill.
-  Original knowledge-work skill — no upstream Superpowers equivalent. Applies 4-phase
-  root cause analysis to business, operational, and strategic problems (not code bugs).
-  Adds unique value even when the official Superpowers plugin is also installed.
+description: This skill should be used when the user has a problem, challenge, or issue that needs diagnosing
+  - business problems, underperformance, operational bottlenecks, strategic questions, relationship issues,
+  brand positioning challenges, or anything that isn't working as expected. Triggers on "why isn't this
+  working", "what's going wrong with", "help me figure out", "diagnose this", "troubleshoot", "I'm stuck",
+  "this isn't performing", "what should I do about", "how do I fix", or any situation where something
+  is broken, stuck, or underperforming. Use ESPECIALLY when under time pressure, when "just one quick
+  fix" seems obvious, when multiple attempts have already failed, or when the root cause is unclear. If
+  there is even a 1% chance the user is dealing with a problem rather than a creation task, invoke this
+  skill.
 ---
 
 # Systematic Problem-Solving
